@@ -29,3 +29,4 @@ mystring = "Hello!!!, he<> sa(id) --and @went &"
 mystring = re.sub("[!,<>()-@&]", "", mystring)
 
 print(mystring)
+print("This is an update string")
